@@ -1,8 +1,9 @@
-# React + Vite
+Simple React Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview:
+This is a basic React application that implements a simple registration form. Upon submitting the form, the user is navigated to the home page. The application makes use of the useState hook for managing form state and React Router for handling navigation.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+Registration Form: Collects user input.
+State Management: Managed using the useState hook.
+Routing: Utilizes React Router to navigate between the registration form and the home page.
